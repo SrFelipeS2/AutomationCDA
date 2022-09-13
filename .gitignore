@@ -1,32 +1,7 @@
-# Prerequisites
-*.d
+AutomationCDA.App/AutomationCDA.Webapp/obj/*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+AutomationCDA.App/AutomationCDA.Webapp/bin/*
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+AutomationCDA.App/AutomationCDA.App.Dominio/obj/Debug/*
+AutomationCDA.App/AutomationCDA.App.Dominio/obj/Debug/net6.0/AutomationCDA.App.Webapp.csproj.AssemblyReference.cache
+AutomationCDA.App/AutomationCDA.Webapp/obj/staticwebassets.pack.sentinel

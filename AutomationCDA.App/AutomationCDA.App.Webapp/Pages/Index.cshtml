@@ -1,0 +1,111 @@
+﻿@page
+@model IndexModel
+@{
+  ViewData["Title"] = "AutomationCDA";
+}
+
+<body class="fs-4">
+    
+        <div class="row">
+            <div class="col-lg-12 mt-2 ">
+                <h1 class="text-center border-white border-bottom ">Automation CDA</h1>
+                <div class="row row-cols-auto d-flex justify-content-center">
+                    <div class="col">
+                        <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            Menu
+                        </a>
+                    </div>
+                    <div class="col">
+                        <p>/</p>
+                    </div>
+                    <div class="col">
+                        <a class="colorcustom" aria-current="page">
+                            Incio de Sesion
+                        </a>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header border-white border-bottom">
+                        <h5 class="offcanvas-title  " id="offcanvasExampleLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body border-bottom">
+                        <div class="d-grid gap-3 col-10 mx-auto  ">
+                            <a href=""
+                                class="customheigt btn btn-info colorcustom text-center border-bottom shadow-lg p-3 d-inline">
+                                <span class="material-icons d-felx">
+                                    info
+                                </span>
+                                <h3 class="d-inline">
+                                    Quienes somos
+                                </h3>
+                            </a>
+                            <a href="" class=" btn btn-success colorcustom text-center border-bottom shadow-lg p-3">
+                                <span class="material-icons d-inline">
+                                    contacts
+                                </span>
+                                <h3 class="d-inline">
+                                    Contactanos
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="imagenmuestra shadow-lg mb-5"></div>
+                    <form>
+                        <div class="mb-3 d-flex justify-content-center">
+                            <div class="container col-6">
+                                <span class="material-icons">
+                                    account_circle
+                                </span>
+                                <label for="exampleInputEmail1" class="form-label ">Usuario / Correo
+                                    Electronico</label>
+                                <input type="email" class="form-control shadow-lg p-3 mb-2 bg-body rounded"
+                                    id="InputEmail1" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="mb-3 d-flex justify-content-center">
+                            <div class="container col-6">
+                                <span class="material-icons">
+                                    fingerprint
+                                </span>
+                                <label for="exampleInputEmail1" class="form-label ">Contraseña</label>
+                                <input type="password" class="form-control shadow-lg p-3 mb-2 bg-body rounded"
+                                    id="InputPassword" aria-describedby="emailHelp">
+                            </div>
+                        </div>
+                        <div class="mb-3 form-check d-flex justify-content-center">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Recordar mi
+                                    contraseña</label>
+                            </div>
+                        </div>
+                        <div class="container d-grid mx-auto col-6">
+                            <a type="button" href="Dashboard.html" class="btn btn-secondary mt-3 ">
+                                <span class="material-icons">
+                                    commute
+                                </span>
+                                Iniciar Sesion
+                            </a>
+                            <a href="./GU/CrearPersona.html" class="colorcustom text-center mt-2">
+                                <span class="material-icons">
+                                    person_add
+                                </span>
+                                Registrarse
+                            </a>
+                        </div>
+                    </form>
+                    <div class="col-md-8 offset-md-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>

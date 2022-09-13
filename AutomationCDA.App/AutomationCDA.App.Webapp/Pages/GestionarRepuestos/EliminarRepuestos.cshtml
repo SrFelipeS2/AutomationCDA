@@ -1,0 +1,48 @@
+﻿@page
+@model AutomationCDA.App.Webapp.EliminarRepuestosModel
+@{
+  ViewData["Title"] = "Eliminar Repuestos";
+  var repuesto = Model.repuesto;
+  var mensaje = ViewData["mensaje"];
+  ViewData["mensaje"] = "";
+}
+<head>
+<link rel="stylesheet" href="~/css/customRepuestos.css"/>
+</head>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-2"></div>
+    
+    <div class="col-12 col-md-8">
+      <h1 class="text-center mt-5 mb-5">Eliminar Repuestos</h1>
+      <form action="" method="post">
+        <input type="hidden" value="@repuesto.Id" name="Id" id="Id">
+        @* <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Id: </span>
+          <input type="text" class="form-control" id="Id" name="Id" value="@repuesto.Id" aria-label="Username" aria-describedby="basic-addon1" readonly>
+        </div> *@
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Descripcion: </span>
+          <input type="text" class="form-control" placeholder="Ingrese la descripcion del repuesto" id="descripcion" name="descripcion" value="@repuesto.Descripcion" aria-label="Username" aria-describedby="basic-addon1" minlength="4" maxlength="50" readonly>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">Valor: </span>
+          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="valor" name="valor" value="@repuesto.ValorRepuesto" placeholder="Ingrese el valor del repuesto" readonly>
+          <span class="input-group-text">COP</span>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">Cantidad: </span>
+          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="cantidad" name="cantidad" value="@repuesto.CantidadRepuesto" min="1" max="10" placeholder="Ingrese las unidades del repuesto" readonly>
+          <span class="input-group-text">Unidades</span>
+        </div>
+        <div class="text-center d-grid mx-auto col-6 mb-5">
+          <button type="submit" class="btn btn-primary mb-2">Eliminar</button>
+          <a href="./ListaTodosLosRepuestos" type="button" class="btn btn-warning mb-2 ">volver</a>
+          <button type="reset" value="reset" class="btn btn-danger">Limpiar</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="col-12 col-md-2"></div>
+  </div>
+</div>

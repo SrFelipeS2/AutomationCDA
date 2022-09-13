@@ -1,0 +1,106 @@
+﻿@page
+@model AutomationCDA.App.Webapp.ListaTodasLasRevisionesModel
+@{
+  ViewData["Title"] = "Lista - Revisiones";
+}
+
+<head>
+<link rel="stylesheet" href="~/css/customRevisiones.css"/>
+</head>
+
+<body class="fs-4">
+
+        <div class="container col-12">
+              <h1 class="text-center">Listado de Revisiones</h1>
+            
+            <div class="row row-cols-auto d-flex justify-content-center">
+                <div class="col">
+                    <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        Menu
+                    </a>
+                </div>
+                <div class="col">
+                    <p>/</p>
+                </div>
+                <div class="col">
+                    <a class="colorcustom" aria-current="page">
+                        Consultar Revisiones
+                    </a>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header border-white border-bottom">
+                    <h5 class="offcanvas-title  " id="offcanvasExampleLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body border-bottom ">
+                    <div class="d-grid gap-3 col-10 mx-auto ">
+                    
+                        <a href="./AgregarRevisiones"
+                            class=" btn colotbtncustom text-center border-bottom shadow-lg p-3">
+                            <span class="material-icons  d-inline">
+                                settings
+                            </span>
+                            <h3 class="d-inline">Registrar Revision</h3>
+                        </a>
+
+                        <a href="../index.html"
+                            class=" btn btn-danger colorcustom text-center border-bottom shadow-lg p-3">
+                            <span class="material-icons  d-inline">
+                                headset_mic
+                            </span>
+                            <h3 class="d-inline">
+                                Cerrar Sesion
+                            </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <table class="table">
+  <thead>
+    <tr>
+      <th class="text-center" >Id</th>
+      <th class="text-center">Fecha Revision</th>
+      <th class="text-center">Aceite motor</th>
+      <th class="text-center">Liquido frenos</th>
+      <th class="text-center">Ref. Motor</th>
+      <th class="text-center">Aceite Direccion</th>
+      <th class="text-center">Id Vehiculo</th>
+      <th class="text-center">Opciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var revision in Model.listaRevisiones)
+    {
+      <tr>
+        <td class="text-center">@revision.Id</td>
+        <td class="text-center">@revision.FechaRevision</td>
+        <td class="text-center">@revision.NivelAceite</td>
+        <td class="text-center">@revision.NivelFrenos</td>
+        <td class="text-center">@revision.NivelRefrigerante</td>
+        <td class="text-center">@revision.NivelDireccion</td>
+        <td class="text-center">@revision.IdVehiculo</td>
+        <td>
+          <a class="btn btn-primary table-tn" asp-page="./ActualizarRevisiones" asp-route-Id ="@revision.Id"> 
+          <i class="far fa-edit"></i> 
+          Actualizar
+          </a> 
+          <a class="btn btn-danger table-tn" asp-page="./EliminarRevisiones" asp-route-Id ="@revision.Id"> 
+          <i class="far fa-edit"></i> 
+          Eliminar
+          </a> 
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
+            </div>
+        </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/ocultar.js"></script>
+</body>

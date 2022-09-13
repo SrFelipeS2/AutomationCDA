@@ -1,0 +1,129 @@
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.exe
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.deps.json
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.runtimeconfig.json
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\ref\AutomationCDA.App.Consola.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.csproj.AssemblyReference.cache
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.AssemblyInfoInputs.cache
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.AssemblyInfo.cs
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.csproj.CopyComplete
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\ref\AutomationCDA.App.Consola.dll
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.pdb
+C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.genruntimeconfig.cache
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.exe
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.deps.json
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.runtimeconfig.json
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Consola.pdb
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Humanizer.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.csproj.AssemblyReference.cache
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.AssemblyInfoInputs.cache
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.AssemblyInfo.cs
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.csproj.CoreCompileInputs.cache
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.csproj.CopyComplete
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\refint\AutomationCDA.App.Consola.dll
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.pdb
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\AutomationCDA.App.Consola.genruntimeconfig.cache
+E:\Documentos\Programming-Courses\Mision-Tic-2022\Ciclo-3\Desarrollo-De-Software\PROJECT\AUTOMATION-CDA\AutomationCDA.App\AutomationCDA.App.Consola\obj\Debug\net6.0\ref\AutomationCDA.App.Consola.dll

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/fontawesome.min.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<style>
+  body {
+    background-image: url(../img/img4.png);
+    background-size: cover;
+    color: #08253dcf;
+    font-weight: bold
+  }
+
+  main {
+    background-image: url(../img/Frame\ 1.png);
+    background-color: #229fe29f;
+    background-size: cover;
+    border-radius: 30px;
+
+  }
+
+  a.colorcustom {
+    color: #08253dcf;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+
+  div.colorcustom {
+    background: #229fe2c6;
+  }
+
+  a.customheigt {
+    height: 80px;
+  }
+
+  div.marginx {
+    margin: auto !important;
+  }
+  a.colotbtncustom {
+      background-color: #6fb309cc;
+      color: #f9f9f9cf;
+      font-weight: bold;
+      text-decoration: none;
+    }
+</style>
+
+<body class="fs-4">
+  <main class=" col-8 container mt-5 shadow-lg p-3 ">
+    <div class="container col-12">
+      <div class="row">
+        <h1 class="text-center  mt-5 mb-4">Usuarios</h1>
+        <div class="row row-cols-auto d-flex justify-content-center">
+          <div class="col">
+            <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvas1" role="button"
+              aria-controls="offcanvas1">
+              Menu
+            </a>
+          </div>
+          <div class="col">
+            <p>/</p>
+          </div>
+          <div class="col">
+            <a class="colorcustom" aria-current="page">
+              Registro Usuario
+            </a>
+          </div>
+        </div>
+        <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvas1"
+          aria-labelledby="offcanvas1Label">
+          <div class="offcanvas-header border-white border-bottom">
+            <h5 class="offcanvas-title  " id="offcanvas1Label">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body border-bottom">
+
+            <div class="d-grid gap-3 col-10 mx-auto  ">
+              <a href="../Dashboard.html" class="btn btn-primary colorcustom text-center border-bottom shadow-lg p-3">
+                <span class="material-icons  d-inline">
+                  headset_mic
+                </span>
+                <h3 class="d-inline">
+                  Mi Perfil</h3>
+              </a>
+
+              <a href="" class="customheigt btn btn-info colorcustom text-center border-bottom shadow-lg p-3 d-inline">
+                <span class="material-icons d-felx">
+                  info
+                </span>
+                <h3 class="d-inline">
+                  Quienes somos
+                </h3>
+              </a>
+
+
+              <a href="../GU/ConsultarUsuario.html" class="btn  colotbtncustom text-center border-bottom shadow-lg p-3">
+                <span class="material-icons  d-inline">
+                  settings
+                </span>
+                <h3 class="d-inline">
+                  Consulta Usuario
+                </h3>
+              </a>
+
+              <a href="../GU/EliminarUsuario.html" class="btn  colotbtncustom text-center border-bottom shadow-lg p-3">
+                <span class="material-icons  d-inline">
+                  settings
+                </span>
+                <h3 class="d-inline">
+                  Elimina Usuario
+                </h3>
+              </a>
+
+              <a href="../GU/EditarUsuario.html" class="btn colotbtncustom text-center border-bottom shadow-lg p-3">
+                <span class="material-icons  d-inline">
+                  settings
+                </span>
+                <h3 class="d-inline">
+                  Editar Usuario
+                </h3>
+              </a>
+
+              <a href="../index.html" class=" btn btn-danger colorcustom text-center border-bottom shadow-lg p-3">
+                <span class="material-icons  d-inline">
+                  headset_mic
+                </span>
+                <h3 class="d-inline">
+                  Cerrar Sesion
+                </h3>
+              </a>
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-12" ">
+                    </div>
+    
+                    <div class=" col-md-8 col-12" ">
+                        <form action="" method" POST">
+            <div class="form-grow  mb-3">
+              <label for="cedula">Cédula </label>
+              <input type="text" class="form-control" id="cedula" name="cedula" placeholder="Digite su cédula"
+                minlegth="5" maxlegth="50">
+            </div>
+            <div class="form-grow  mb-3">
+              <label for="nombre">Nombre </label>
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Digite su nombre"
+                minlegth="5" maxlegth="50">
+            </div>
+            <div class="form-grow mb-3">
+              <label for="apellidos">Apellidos </label>
+              <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Digite su apellido"
+                minlegth="5" maxlegth="50">
+            </div>
+            <div class="form-grow mb-3">
+              <label for="telefono">Teléfono </label>
+              <input type="numer" class="form-control" id="telefono" name="telefono" placeholder="Digite su teléfono"
+                minlegth="5" maxlegth="50">
+            </div>
+            <div class="form-grow mb-3">
+              <label for="correo">Correo Electrónico </label>
+              <input type="email" class="form-control" id="correo" name="correo"
+                placeholder="Digite su correo electrónico" minlegth="5" maxlegth="50">
+            </div>
+            <div class="form-grow  mb-3">
+              <label for="direccion">Dirección de Residencia </label>
+              <input type="text" class="form-control" id="direccion" name="direccion"
+                placeholder="Digite su dirección de residencia" minlegth="5" maxlegth="50">
+            </div>
+            <div class="form-group  mb-3">
+              <label for="nivelestudios">Nivel Estudios</label>
+              <select class="form-control" id="nivelestudios" name="nivelestudios">
+                <option value="" selected="selected">Seleccione....</option>
+                <option>Primaria</option>
+                <option>Secundaria</option>
+                <option>Pregrado</option>
+                <option>Postgrado</option>
+                <option>Maestría</option>
+              </select>
+            </div>
+            <div class="col-12 mx-auto text-center">
+              <a type="button" class="btn  text-center mb-3 btn-success">Rregistrarme</a>
+            </div>
+            <!-- <button type="submit" class="btn   mb-5 btn-primary mb-2">Buscar</button>
+                        <button type="submit" class="btn   mb-5 btn-primary mb-2">Actualizar</button>
+                        <button type="submit" class="btn   mb-5 btn-primary mb-2">Eliminar</button>
+                        <button type="reset" class="btn   mb-5 btn-primary mb-2">Limpiar Formulario</button> -->
+            </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

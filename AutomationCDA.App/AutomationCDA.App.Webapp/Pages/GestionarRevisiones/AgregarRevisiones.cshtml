@@ -1,0 +1,121 @@
+﻿@page
+@model AutomationCDA.App.Webapp.AgregarRevisionesModel
+@{
+  ViewData["Title"] = "Agregar Revisiones";
+}
+
+<head>
+<link rel="stylesheet" href="~/css/customRevisiones.css"/>
+</head>
+<body class="fs-4">
+    
+        <div class="container col-10">
+            <h1 class="text-center mt-5 mb-3">Revisiones</h1>
+
+            <div class="row row-cols-auto d-flex justify-content-center">
+                <div class="col">
+                    <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        Menu
+                    </a>
+                </div>
+                <div class="col">
+                    <p>/</p>
+                </div>
+                <div class="col">
+                    <a class="colorcustom" aria-current="page">
+                        Agregar revisiones
+                    </a>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header border-white border-bottom">
+                    <h5 class="offcanvas-title  " id="offcanvasExampleLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body border-bottom">
+                    <div class="d-grid gap-3 col-10 mx-auto  ">                    
+
+                        <a href="./ListaTodasLasRevisiones"
+                            class="btn colotbtncustom text-center border-bottom shadow-lg p-3">
+                            <span class="material-icons  d-inline">
+                                settings
+                            </span>
+                            <h3 class="d-inline">Listado Revisiones</h3>
+                        </a>
+
+                        <a href="../index.html"
+                        class=" btn btn-danger colorcustom text-center border-bottom shadow-lg p-3">
+                        <span class="material-icons  d-inline">
+                            headset_mic
+                        </span>
+                        <h3 class="d-inline">
+                            Cerrar Sesion
+                        </h3>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <form class="row g-3 mt-2 mb-5" method="post">
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <label for="fechaRevision" class="form-label">Fecha de revision:</label>
+                        <input type="date" class="form-control border border-primary" id="fechaRevision" name="fechaRevision" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <label for="nivelAceite" class="form-label">Nivel de aceite del Motor: </label>
+                        <select id="nivelAceite" class="form-select border border-primary" name="nivelAceite" required>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="alto">Nivel alto</option>
+                          <option value="normal">Nivel normal</option>
+                          <option value="bajo">Nivel bajo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <label for="nivelFrenos" class="form-label">Nivel de liquido de frenos: </label>
+                        <select id="nivelFrenos" class="form-select border border-primary" name="nivelFrenos" required>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="alto">Nivel alto</option>
+                          <option value="normal">Nivel normal</option>
+                          <option value="bajo">Nivel bajo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <label for="nivelRefrigerante" class="form-label">Nivel de refrigerante del motor: </label>
+                        <select id="nivelRefrigerante" class="form-select border border-primary"
+                          name="nivelRefrigerante" required>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="alto">Nivel alto</option>
+                          <option value="normal">Nivel normal</option>
+                          <option value="bajo">Nivel bajo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <label for="nivelDireccion" class="form-label">Nivel de aceite de la direccion: </label>
+                        <select id="nivelAceiteDireccion" class="form-select border border-primary" name="nivelDireccion" required>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="alto">Nivel alto</option>
+                          <option value="normal">Nivel normal</option>
+                          <option value="bajo">Nivel bajo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-5 mx-auto text-center">
+                    <button type="submit" class="btn btn-success">Agregar Revision</button>
+                </div>
+            </form>
+    </main>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+</body>

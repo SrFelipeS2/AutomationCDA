@@ -1,0 +1,43 @@
+﻿@page
+@model AutomationCDA.App.Webapp.ActualizarVehiculosModel
+@{
+}
+ <head>
+  <link rel="stylesheet" href="~/css/customVehiculos.css"/>
+  </head>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-2"></div>
+    
+    <div class="col-12 col-md-8">
+      <h1 class="text-center mt-5 mb-5">Actualizar Vehiculo</h1>
+      <form action="" method="post">
+        <input type="hidden" value="" name="Id" id="Id">
+         <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Id: </span>
+          <input type="text" class="form-control" id="Id" name="Id" value="" aria-label="Username" aria-describedby="basic-addon1" readonly>
+        </div> 
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Descripcion: </span>
+          <input type="text" class="form-control" placeholder="Ingrese la descripcion del repuesto" id="descripcion" name="descripcion" value="" aria-label="Username" aria-describedby="basic-addon1" minlength="4" maxlength="50" required>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">Valor: </span>
+          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="valor" name="valor" value="repuesto.ValorRepuesto" placeholder="Ingrese el valor del repuesto" required>
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text">Cantidad: </span>
+          <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="cantidad" name="cantidad" value="" min="1" max="10" placeholder="Ingrese las unidades del repuesto" required>
+          <span class="input-group-text">Unidades</span>
+        </div>
+        <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="submit" class="btn btn-primary mb-2">Actualizar</button>
+        <a href="./ListaTodosLosRepuestos" type="button" class="btn btn-warning mb-2 ">volver</a>
+        <button type="reset" class="btn btn-danger">Limpiar</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="col-12 col-md-2"></div>
+  </div>
+</div>

@@ -1,0 +1,154 @@
+﻿@page
+@model AutomationCDA.App.Webapp.ActualizarRevisionesModel
+@{
+  ViewData["Title"] = "Actualizar Revisiones";
+  var revision = Model.revision;
+  var mensaje = ViewData["mensaje"];
+  ViewData["mensaje"] = "";
+}
+
+<head>
+<link rel="stylesheet" href="~/css/customRevisiones.css"/>
+</head>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-2"></div>
+    
+    <div class="col-12 col-md-8">
+      <h1 class="text-center mt-5 mb-5">Actualizar Revisiones </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+
+        <input type="hidden" value="@revision.Id" name="Id" id="Id">
+        
+        <div class="col-12  mb-3">
+            <div class="input-group">
+                <label for="fechaRevision" class="form-label">Fecha de revision:</label>
+                <input type="date" class="form-control border border-primary" id="fechaRevision" name="fechaRevision" value="@revision.FechaRevision" required>
+            </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelAceite" class="form-label">Nivel de aceite del Motor: </label>
+                    <select id="nivelAceite" class="form-select border border-primary" name="nivelAceite" 
+                     required>
+                      @if (revision.NivelAceite == "alto")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" selected>Nivel alto</option>
+                        <option value="normal">Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelAceite == "normal")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" selected>Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelAceite == "bajo")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" >Nivel normal</option>
+                        <option value="bajo" selected>Nivel bajo</option>
+                      }
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelFrenos" class="form-label">Nivel de liquido de frenos: </label>
+                    <select id="nivelFrenos" class="form-select border border-primary" name="nivelFrenos"  required>
+                       @if (revision.NivelFrenos == "alto")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" selected>Nivel alto</option>
+                        <option value="normal">Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelFrenos == "normal")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" selected>Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelFrenos == "bajo")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" >Nivel normal</option>
+                        <option value="bajo" selected>Nivel bajo</option>
+                      }
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelRefrigerante" class="form-label">Nivel de refrigerante del motor: </label>
+                    <select id="nivelRefrigerante" class="form-select border border-primary"
+                      name="nivelRefrigerante" required>
+                      @if (revision.NivelRefrigerante == "alto")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" selected>Nivel alto</option>
+                        <option value="normal">Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelRefrigerante == "normal")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" selected>Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelRefrigerante == "bajo")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" >Nivel normal</option>
+                        <option value="bajo" selected>Nivel bajo</option>
+                      }
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelDireccion" class="form-label">Nivel de aceite de la direccion: </label>
+                    <select id="nivelAceiteDireccion" class="form-select border border-primary" name="nivelDireccion" value="@revision.NivelDireccion" required>
+                      @if (revision.NivelDireccion == "alto")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" selected>Nivel alto</option>
+                        <option value="normal">Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelDireccion == "normal")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" selected>Nivel normal</option>
+                        <option value="bajo">Nivel bajo</option>
+                      }
+                      @if (revision.NivelDireccion == "bajo")
+                      {
+                        <option>Seleccione...</option>
+                        <option value="alto" >Nivel alto</option>
+                        <option value="normal" >Nivel normal</option>
+                        <option value="bajo" selected>Nivel bajo</option>
+                      }
+                    </select>
+                </div>
+            </div>
+        <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="submit" class="btn btn-primary mb-2">Actualizar</button>
+        <a href="./ListaTodasLasRevisiones" type="button" class="btn btn-warning mb-2 ">volver</a>
+        <button type="reset" class="btn btn-danger">Limpiar</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="col-12 col-md-2"></div>
+  </div>
+</div>

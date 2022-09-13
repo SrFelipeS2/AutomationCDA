@@ -1,0 +1,114 @@
+#Pasos a seguir para crear una solución y proyectos asociados
+
+---------------------------------------------
+Solución y proyectos
+---------------------------------------------
+cd "C:\Users\zambr\Documents\Mintic\UCaldas\Contenido\3. Desarrollo de software\ProyectoCSharp"
+
+-Ayuda al crear
+
+dotnet new -h
+
+-Crear solucion
+dotnet new sln -o AutomationCDA.App
+cd AutomationCDA.App
+
+-Crear proyecto
+dotnet new console -o AutomationCDA.App.Consola
+dotnet new classlib -o AutomationCDA.App.Persistencia
+dotnet new classlib -o AutomationCDA.App.Dominio
+dotnet new webapp -o AutomationCDA.App.Webapp
+dotnet new razor -o AutomationCDA.App.Razor
+
+
+cd ..
+tree
+
+---------------------------------------------
+- ORM - Entity Framework
+---------------------------------------------
+
+-Instalación global de equipo
+
+dotnet tool list
+dotnet tool install --global dotnet-ef --version 6.0.0
+dotnet tool update --global dotnet-ef --version 6.0.0
+
+-Instalación proyecto
+
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+
+-Utilización
+
+DBContext
+
+- Realizar referencias a proyectos
+dotnet add reference ..\AutomationCDA.App.Dominio\
+dotnet add reference ..\AutomationCDA.App.Persistencia\
+
+- Compilar solución o proyecto
+
+dotnet build
+
+---------------------------------------------
+- Crear una migración aBD
+---------------------------------------------
+
+-Proyecto front o consola debe tener instalado Entity Framework
+
+Ejecutar los comandos de instalación ef en el proyecto
+
+-Persistencia
+
+-crear el script para creación de tablas
+dotnet ef migrations add Inicial --startup-project ..\AutomationCDA.App.Consola\
+-crear base de datos
+dotnet ef database update --startup-project ..\AutomationCDA.App.Consola\
+---------------------------------------------
+- Proyecto de prueba de conexión a BD
+---------------------------------------------
+
+dotnet new console -o AutomationCDA.App.Consola
+dotnet add reference ..\AutomationCDA.App.Dominio\
+dotnet add reference ..\AutomationCDA.App.Persistencia\
+
+---------------------------------------------
+- Sql server
+---------------------------------------------
+sa
+***********  
+
+dotnet ef dbcontext scaffold "Server=DESKTOP-6KVRPV0; Database=AutomationCDA; Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -o Entities
+
+dotnet ef dbcontext scaffold "Server=;User ID=sa;Password=;Database=;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" Microsoft.EntityFrameworkCore.SqlServer -o Data
+
+---------------------------------------------
+- Webapp 
+---------------------------------------------
+
+- dotnet new page -n BuscarListaRepuestos -na AutomationCDA.App.Webapp -o ./Pages/GestionarRepuestos/
+
+- dotnet new page -n ActualizarRevisiones -na AutomationCDA.App.Webapp -o ./Pages/GestionarRevisiones/
+
+- dotnet new page -n AgregarSegurosAdicionales -na AutomationCDA.App.Webapp -o ./Pages/GestionarSegurosAdicionales/
+
+- dotnet new page -n BuscarListaVehiculos -na AutomationCDA.App.Webapp -o ./Pages/GestionarVehiculos/
+
+- dotnet new page -n ActualizarPersonas -na AutomationCDA.App.Webapp -o ./Pages/GestionarPersonas/
+
+- dotnet new page -n AgregarUsuarios -na AutomationCDA.App.Webapp -o ./Pages/GestionarUsuarios/
+
+- dotnet new page -n AgregarRoles -na AutomationCDA.App.Webapp -o ./Pages/GestionarRoles/
+
+
+
+Crear las referencias en AutomationCDA.App.Webapp:
+- dotnet add reference ../AutomationCDA.App.Dominio/
+- dotnet add reference ../AutomationCDA.App.Persistencia/
+
+Agregar las referencias en la pagina BuscarTodosRepuestos.cshtml.cs:
+- using AutomationCDA.App.Dominio;
+- using AutomationCDA.App.Persistencia;

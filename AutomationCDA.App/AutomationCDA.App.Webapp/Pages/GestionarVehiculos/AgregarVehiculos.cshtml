@@ -1,0 +1,112 @@
+﻿@page
+@model AutomationCDA.App.Webapp.AgregarVehiculosModel
+@{
+}
+ <head>
+  <link rel="stylesheet" href="~/css/customVehiculos.css"/>
+  </head>
+<body class="fs-4">
+    <div class="container col-12">
+      <h1 class="text-center  mt-5 mb-4">Vehiculos</h1>
+      <div class="row row-cols-auto d-flex justify-content-center">
+        <div class="col">
+          <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvas1" role="button" aria-controls="offcanvas1">
+            Menu
+          </a>
+        </div>
+        <div class="col">
+          <p>/</p>
+        </div>
+        <div class="col">
+          <a class="colorcustom" aria-current="page">
+            Registro Vehivulo
+          </a>
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvas1"
+        aria-labelledby="offcanvas1Label">
+        <div class="offcanvas-header border-white border-bottom">
+          <h5 class="offcanvas-title  " id="offcanvas1Label">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body border-bottom">
+
+          <div class="d-grid gap-3 col-10 mx-auto  ">
+
+
+            <a href="./ListaTodosLosVehiculos" class="btn  colotbtncustom text-center border-bottom shadow-lg p-3">
+              <span class="material-icons  d-inline">
+                settings
+              </span>
+              <h3 class="d-inline">
+                Listado Vehiculos
+              </h3>
+            </a>
+
+            <a href="../index.html" class=" btn btn-danger colorcustom text-center border-bottom shadow-lg p-3">
+              <span class="material-icons  d-inline">
+                headset_mic
+              </span>
+              <h3 class="d-inline">
+                Cerrar Sesion
+              </h3>
+            </a>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <form class="row g-3 mt-5" method="post">
+        <div class="col-4 mb-3">
+          <label for="validationDefault01" class="form-label">Placa</label>
+          <input type="text" class="form-control" id="placa" name="placa" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault02" class="form-label">Modelo</label>
+          <input type="text" class="form-control" id="modelo" name="modelo" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefaultUsername" class="form-label">Marca</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="marca" name="marca" aria-describedby="inputGroupPrepend2"
+              required>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault03" class="form-label">Capacidad de Pasajeros</label>
+          <input type="text" class="form-control" id="capacidadPasajeros" name="capacidadPasajeros" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault04" class="form-label">Cilindrada Motor</label>
+          <input type="text" class="form-control" id="cilindradaMotor" name="cilindradaMotor" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault05" class="form-label">Tipo Vehiculo</label>
+          <input type="text" class="form-control" id="tipoVehiculo" name="tipoVehiculo" required>
+        </div>
+        <div class="col-12  mb-3">
+          <div class="input-group">
+            <span class="input-group-text">Observaciones</span>
+            <input class="form-control" id="observaciones" name="observaciones">
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="input-group ">
+            <label class="input-group-text" for="inputGroupSelect01">Estado Soat</label>
+            <select class="form-select" id="estadoSoat" name="estadoSoat">
+              <option selected>Choose...</option>
+              <option value="1">Activo</option>
+              <option value="2">Vencido</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-12 mx-auto text-center">
+          <button class="btn btn-success" type="submit">Agregar Vehivculo</button>
+        </div>
+
+      </form>
+    </div>
+  
+  <script src="../js/bootstrap.min.js"></script>
+</body>

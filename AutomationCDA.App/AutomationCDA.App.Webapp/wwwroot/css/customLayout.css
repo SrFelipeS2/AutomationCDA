@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/img1.png);
+    background-size: cover;
+    color: #ffffffcf;
+    font-weight: bold
+}
+
+main {
+    border-radius: 30px;
+    background-color: #229fe2c6;
+}
+
+a.colorcustom {
+    text-decoration: none;
+    color: #ffffffcf;
+    font-weight: bold
+}
+div.colorcustom{
+    background-color: #229fe2c6;
+
+}
+
+
+a.customheigt {
+    height: 80px;
+}
+
+div.imagenmuestra {
+    background-image: url(../img/logo.png);
+    height: 119px;
+    width: 200px;
+    margin: auto;
+    border-radius: 5px;
+    border: solid 2px #001919;
+}
