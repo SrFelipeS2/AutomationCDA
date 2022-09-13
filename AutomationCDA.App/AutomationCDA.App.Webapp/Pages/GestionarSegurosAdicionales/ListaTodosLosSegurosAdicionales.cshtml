@@ -1,4 +1,98 @@
 ﻿@page
 @model AutomationCDA.App.Webapp.ListaTodosLosSegurosAdicionalesModel
 @{
+  ViewData["Title"] = "Listar-seguros";
 }
+
+<head>
+<link rel="stylesheet" href="~/css/customSegurosAdicionales.css"/>
+</head>
+
+<body class="fs-4">
+
+        <div class="container col-12">
+              <h1 class="text-center">Listado de Seguros Adicionales</h1>
+            
+            <div class="row row-cols-auto d-flex justify-content-center">
+                <div class="col">
+                    <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        Menu
+                    </a>
+                </div>
+                <div class="col">
+                    <p>/</p>
+                </div>
+                <div class="col">
+                    <a class="colorcustom" aria-current="page">
+                        Consultar Seguros Adicionales
+                    </a>
+                </div>
+            </div>
+            <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header border-white border-bottom">
+                    <h5 class="offcanvas-title  " id="offcanvasExampleLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body border-bottom ">
+                    <div class="d-grid gap-3 col-10 mx-auto ">
+                    
+                        <a href="./AgregarSegurosAdicionales"
+                            class=" btn colotbtncustom text-center border-bottom shadow-lg p-3">
+                            <span class="material-icons  d-inline">
+                                settings
+                            </span>
+                            <h3 class="d-inline">Registrar Seguros</h3>
+                        </a>
+
+                        <a href="../index.html"
+                            class=" btn btn-danger colorcustom text-center border-bottom shadow-lg p-3">
+                            <span class="material-icons  d-inline">
+                                headset_mic
+                            </span>
+                            <h3 class="d-inline">
+                                Cerrar Sesion
+                            </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th class="text-center" >Id</th>
+                        <th class="text-center">TipoSeguro</th>
+                        <th class="text-center">FechaVencimiento</th>
+                        <th class="text-center">Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var seguro in Model.listaSeguroAdicional)
+                        {
+                        <tr>
+                            <td class="text-center">@seguro.Id</td>
+                            <td class="text-center">@seguro.TipoSeguro</td>
+                            <td class="text-center">@seguro.FechaVencimiento</td>
+                            <td>
+                            <a class="btn btn-primary table-tn" asp-page="./ActualizarSegurosAdicionales" asp-route-Id ="@seguro.Id"> 
+                            <i class="far fa-edit"></i> 
+                            Actualizar
+                            </a> 
+                            <a class="btn btn-danger table-tn" asp-page="./EliminarSegurosAdicionales" asp-route-Id ="@seguro.Id"> 
+                            <i class="far fa-edit"></i> 
+                            Eliminar
+                            </a> 
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                    </table>
+            </div>
+        </div>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/ocultar.js"></script>
+</body>

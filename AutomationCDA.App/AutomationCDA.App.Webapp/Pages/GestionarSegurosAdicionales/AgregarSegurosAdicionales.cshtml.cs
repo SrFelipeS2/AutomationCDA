@@ -15,5 +15,27 @@ namespace AutomationCDA.App.Webapp
     public void OnGet()
     {
     }
+    public IActionResult OnPost()
+    {
+      var tipoSeguro = Request.Form["tipoSeguro"];
+      var fechaVencimiento = Request.Form["fechaVencimiento"];
+      
+      // Validacion de los datos recibidos
+
+      var seguro = new SeguroAdicional{
+        TipoSeguro = tipoSeguro,
+        FechaVencimiento = fechaVencimiento       
+      };
+
+      var result = _seguroAdicionalRepositorio.AgregarSeguroAdicional(seguro);
+      if (result > 0)
+      {
+        return Page();
+      }
+      else
+      {
+        return RedirectToPage("./Error");
+      }
+    }
   }
 }

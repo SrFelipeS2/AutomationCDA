@@ -1,4 +1,89 @@
 ﻿@page
 @model AutomationCDA.App.Webapp.AgregarSegurosAdicionalesModel
 @{
+  ViewData["Title"] = "Agregar Seguros Adicionales";
 }
+
+<head>
+<link rel="stylesheet" href="~/css/customSegurosAdicionales.css"/>
+</head>
+
+<body class="fs-4">
+    
+        <div class="container col-10">
+            <h1 class="text-center mt-5 mb-3">Seguros Adicionales</h1>
+
+            <div class="row row-cols-auto d-flex justify-content-center">
+                <div class="col">
+                    <a class="colorcustom" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">
+                        Menu
+                    </a>
+                </div>
+                <div class="col">
+                    <p>/</p>
+                </div>
+                <div class="col">
+                    <a class="colorcustom" aria-current="page">
+                        Registro seguros adicionales
+                    </a>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start colorcustom" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header border-white border-bottom">
+                    <h5 class="offcanvas-title  " id="offcanvasExampleLabel">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body border-bottom">
+                    <div class="d-grid gap-3 col-10 mx-auto  ">                    
+
+                        <a href="./ListaTodosLosSegurosAdicionales"
+                            class="btn colotbtncustom text-center border-bottom shadow-lg p-3">
+                            <span class="material-icons  d-inline">
+                                settings
+                            </span>
+                            <h3 class="d-inline">Listado seguros</h3>
+                        </a>
+
+                        <a href="../index.html"
+                        class=" btn btn-danger colorcustom text-center border-bottom shadow-lg p-3">
+                        <span class="material-icons  d-inline">
+                            headset_mic
+                        </span>
+                        <h3 class="d-inline">
+                            Cerrar Sesion
+                        </h3>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <form class="row g-3 mt-2 mb-5" method="post">
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Tipo seguro: </span>
+                        <select id="tipoSeguro" class="form-select border border-primary" name="tipoSeguro" required>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="soat">Soat</option>
+                          <option value="seguro">Seguro todo riesgo</option>
+                          <option value="seguroe">Seguro estudiantil</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Fecha Vencimiento: </span>
+                         <input type="date" class="form-control border border-primary" id="fechaVencimiento" name="fechaVencimiento" required>
+                    </div>
+                </div>
+                <div class="mb-5 mx-auto text-center">
+                    <button class="btn btn-success" type="submit">Agregar Seguro</button>
+                </div>
+
+            </form>
+    </main>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+</body>

@@ -12,8 +12,10 @@ namespace AutomationCDA.App.Webapp
   public class ListaTodosLosSegurosAdicionalesModel : PageModel
   {
     private ISeguroAdicionalRepositorio _seguroAdicionalRepositorio = new SeguroAdicionalRepositorio( new AutomationCDA.App.Persistencia.AppContext());
+    public IEnumerable<SeguroAdicional> listaSeguroAdicional;
     public void OnGet()
     {
+      listaSeguroAdicional = _seguroAdicionalRepositorio.BuscarListaSegurosAdicionales();
     }
   }
 }

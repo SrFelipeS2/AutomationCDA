@@ -1,0 +1,35 @@
+body {
+    background-image: url(../img/img7.png);
+    background-size: cover;
+    color: #08253dcf;
+    font-weight: bold
+}
+
+main {
+    background-image: url(../img/Frame\ 1.png);
+    background-color: #229fe29f;
+    background-size: cover;
+    border-radius: 30px;
+
+}
+
+a.colorcustom {
+    text-decoration: none;
+    color: #08253dcf;
+    font-weight: bold
+}
+
+a.customheigt {
+    height: 80px;
+}
+
+div.colorcustom {
+    background: #229fe2c6;
+}
+
+a.colotbtncustom {
+    background-color: #6fb309cc;
+    color: #f9f9f9cf;
+    font-weight: bold;
+    text-decoration: none;
+}

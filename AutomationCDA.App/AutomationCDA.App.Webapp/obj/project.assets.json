@@ -1946,19 +1946,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ovidi\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
       "projectName": "AutomationCDA.App.Webapp",
-      "projectPath": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
-      "packagesPath": "C:\\Users\\ovidi\\.nuget\\packages\\",
-      "outputPath": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ovidi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1970,11 +1970,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
-              "projectPath": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj"
+            "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj"
             },
-            "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj": {
-              "projectPath": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj"
+            "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj"
             }
           }
         }
