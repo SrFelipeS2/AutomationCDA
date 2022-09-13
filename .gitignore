@@ -1,7 +1,2 @@
-AutomationCDA.App/AutomationCDA.Webapp/obj/*
-
-AutomationCDA.App/AutomationCDA.Webapp/bin/*
-
-AutomationCDA.App/AutomationCDA.App.Dominio/obj/Debug/*
-AutomationCDA.App/AutomationCDA.App.Dominio/obj/Debug/net6.0/AutomationCDA.App.Webapp.csproj.AssemblyReference.cache
-AutomationCDA.App/AutomationCDA.Webapp/obj/staticwebassets.pack.sentinel
+AutomationCDA.App/AutomationCDA.Webapp/obj/
+AutomationCDA.App/AutomationCDA.Webapp/bin/
