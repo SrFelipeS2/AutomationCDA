@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj": {}
+    "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
+    "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
         "projectName": "AutomationCDA.App.Dominio",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ANDRES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ANDRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,34 +80,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj": {
+    "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj",
         "projectName": "AutomationCDA.App.Persistencia",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\ANDRES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ANDRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj"
+              "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj"
               }
             }
           }
@@ -144,8 +155,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -154,37 +164,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj": {
+    "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
+        "projectUniqueName": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
         "projectName": "AutomationCDA.App.Webapp",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\obj\\",
+        "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\AutomationCDA.App.Webapp.csproj",
+        "packagesPath": "C:\\Users\\ANDRES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Webapp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ANDRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj"
+              "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj"
               },
-              "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documentos\\Proyecto_Ovi_And\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj"
+              "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj"
               }
             }
           }
@@ -204,8 +220,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -217,7 +232,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

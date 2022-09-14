@@ -12,8 +12,13 @@ namespace AutomationCDA.App.Webapp
   public class ListaTodasLasPersonasModel : PageModel
   {
     private IPersonaRepositorio _personaRepositorio = new PersonaRepositorio( new AutomationCDA.App.Persistencia.AppContext());
-    public void OnGet()
-    {
-    }
+    public List<Persona> listadoPersonas { get; set;} 
+        
+        public void OnGet()
+        {
+            listadoPersonas = new List<Persona>();  
+            listadoPersonas = _personaRepositorio.ObtenerTodo();
+        }
   }
 }
+

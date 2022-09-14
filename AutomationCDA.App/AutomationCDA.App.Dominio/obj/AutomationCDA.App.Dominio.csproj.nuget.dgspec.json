@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {}
+    "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {}
   },
   "projects": {
-    "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
+    "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
         "projectName": "AutomationCDA.App.Dominio",
-        "projectPath": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\ovidi\\.nuget\\packages\\",
-        "outputPath": "E:\\Documentos\\Programming-Courses\\Mision-Tic-2022\\Ciclo-3\\Desarrollo-De-Software\\PROJECT\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\AutomationCDA.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ANDRES\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ovidi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ANDRES\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

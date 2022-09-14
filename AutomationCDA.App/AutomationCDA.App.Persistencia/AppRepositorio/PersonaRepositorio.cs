@@ -14,11 +14,15 @@ namespace AutomationCDA.App.Persistencia
       _appContext = context;
     }
     
-    // METODOS CRUD PARA LOS REPUESTOS
+    
     int IPersonaRepositorio.AgregarPersona(Persona persona)
     {
       _appContext.Personas.Add(persona);
       return _appContext.SaveChanges();
+    }
+
+    List<Persona> IPersonaRepositorio.ObtenerTodo(){
+          return _appContext.Personas.ToList();
     }
 
     Persona IPersonaRepositorio.BuscarPersona(int id)

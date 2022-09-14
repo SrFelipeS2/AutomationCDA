@@ -8,6 +8,7 @@ namespace AutomationCDA.App.Persistencia
   public interface IPersonaRepositorio
   {
     int AgregarPersona(Persona persona);
+    List<Persona> ObtenerTodo();
 
     Persona BuscarPersona(int id);
 
