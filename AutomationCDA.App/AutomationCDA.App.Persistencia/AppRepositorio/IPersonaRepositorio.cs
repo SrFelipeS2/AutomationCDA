@@ -12,12 +12,16 @@ namespace AutomationCDA.App.Persistencia
 
     Persona BuscarPersona(int id);
 
+    int EliminarPersona(Persona persona);
+
     IEnumerable<Persona> BuscarListaPersonas();
 
     List<Persona> BuscarPersonasPorCedula(string cedula);
 
     int ActualizarPersona(Persona persona);
 
-    int EliminarPersona(Persona persona);
+    Persona BuscarPorNoDocumento(string NoDocumento);
+
+    //int EliminarPersona(Persona persona);
   }
 }

@@ -52,6 +52,12 @@ namespace AutomationCDA.App.Persistencia
       return _appContext.SaveChanges();
     }
 
+
+    Persona IPersonaRepositorio.BuscarPorNoDocumento(string NoDocumento){
+            return _appContext.Personas.Where( p => p.Cedula == NoDocumento ).FirstOrDefault();
+        }
+
+
   }
 
 }

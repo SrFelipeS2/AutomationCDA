@@ -22,39 +22,39 @@
         <input type="hidden" value="@revision.Id" name="Id" id="Id">
         
         <div class="col-12  mb-3">
-            <div class="input-group">
-                <label for="fechaRevision" class="form-label">Fecha de revision:</label>
-                <input type="date" class="form-control border border-primary" id="fechaRevision" name="fechaRevision" value="@revision.FechaRevision" required>
-            </div>
-            </div>
+          <div class="input-group">
+            <label for="fechaRevision" class="form-label">Fecha de revision:</label>
+            <input type="date" class="form-control border border-primary" id="fechaRevision" name="fechaRevision" value="@revision.FechaRevision" required>
+          </div>
+          </div>
             <div class="col-12  mb-3">
-                <div class="input-group">
-                    <label for="nivelAceite" class="form-label">Nivel de aceite del Motor: </label>
-                    <select id="nivelAceite" class="form-select border border-primary" name="nivelAceite" 
-                     required>
-                      @if (revision.NivelAceite == "alto")
-                      {
-                        <option>Seleccione...</option>
-                        <option value="alto" selected>Nivel alto</option>
-                        <option value="normal">Nivel normal</option>
-                        <option value="bajo">Nivel bajo</option>
-                      }
-                      @if (revision.NivelAceite == "normal")
-                      {
-                        <option>Seleccione...</option>
-                        <option value="alto" >Nivel alto</option>
-                        <option value="normal" selected>Nivel normal</option>
-                        <option value="bajo">Nivel bajo</option>
-                      }
-                      @if (revision.NivelAceite == "bajo")
-                      {
-                        <option>Seleccione...</option>
-                        <option value="alto" >Nivel alto</option>
-                        <option value="normal" >Nivel normal</option>
-                        <option value="bajo" selected>Nivel bajo</option>
-                      }
-                    </select>
-                </div>
+              <div class="input-group">
+                <label for="nivelAceite" class="form-label">Nivel de aceite del Motor: </label>
+                <select id="nivelAceite" class="form-select border border-primary" name="nivelAceite" 
+                  required>
+                  @if (revision.NivelAceite == "alto")
+                  {
+                    <option>Seleccione...</option>
+                    <option value="alto" selected>Nivel alto</option>
+                    <option value="normal">Nivel normal</option>
+                    <option value="bajo">Nivel bajo</option>
+                  }
+                  @if (revision.NivelAceite == "normal")
+                  {
+                    <option>Seleccione...</option>
+                    <option value="alto" >Nivel alto</option>
+                    <option value="normal" selected>Nivel normal</option>
+                    <option value="bajo">Nivel bajo</option>
+                  }
+                  @if (revision.NivelAceite == "bajo")
+                  {
+                    <option>Seleccione...</option>
+                    <option value="alto" >Nivel alto</option>
+                    <option value="normal" >Nivel normal</option>
+                    <option value="bajo" selected>Nivel bajo</option>
+                  }
+                </select>
+              </div>
             </div>
             <div class="col-12  mb-3">
                 <div class="input-group">

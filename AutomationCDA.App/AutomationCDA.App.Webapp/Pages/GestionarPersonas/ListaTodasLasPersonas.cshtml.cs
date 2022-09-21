@@ -19,6 +19,65 @@ namespace AutomationCDA.App.Webapp
             listadoPersonas = new List<Persona>();  
             listadoPersonas = _personaRepositorio.ObtenerTodo();
         }
+
+        public IActionResult OnPostActualizarJson([FromBody]Persona persona)
+        {
+            var personaResult = _personaRepositorio.BuscarPersona(persona.Id );
+            var mensaje = "";
+            
+
+            if( personaResult != null){
+
+                personaResult.Cedula = persona.Cedula;
+                personaResult.Nombre = persona.Nombre;
+                personaResult.Apellidos = persona.Apellidos;
+                personaResult.Telefono = persona.Telefono;
+                personaResult.CorreoElectronico = persona.CorreoElectronico;
+                personaResult.Direccion = persona.Direccion;
+                personaResult.NivelEstudios = persona.NivelEstudios;
+            
+                var result = _personaRepositorio.ActualizarPersona(personaResult);
+
+                if( result > 0){
+                    mensaje = "Se actualizo correctamente";
+                }else{
+                    mensaje = "No se pudo actualizar";
+                }
+
+            }else{
+                mensaje = "La persona a actualizar no existe";
+            }
+
+            //return new JsonResult(persona);
+
+            return Content(mensaje);
+
+        }
+
+        public IActionResult OnPostEliminarJson([FromBody]Persona persona)
+        {
+            var personaResult = _personaRepositorio.BuscarPersona(persona.Id );
+            var mensaje = "";
+        
+            if( personaResult != null){
+           
+                var result = _personaRepositorio.EliminarPersona(personaResult);
+
+                if( result > 0){
+                    mensaje = "Se elimino correctamente";
+                }else{
+                    mensaje = "No se pudo eliminar";
+                }
+
+            }else{
+                mensaje = "La persona a eliminar no existe";
+            }
+
+            //return new JsonResult(persona);
+
+            return Content(mensaje);
+
+        }
+
   }
 }
-

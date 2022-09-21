@@ -2,6 +2,7 @@
 @model AutomationCDA.App.Webapp.ListaTodasLasRevisionesModel
 @{
   ViewData["Title"] = "Lista - Revisiones";
+  ViewData["script"] = "listaRevisiones.js";
 }
 
 <head>
@@ -77,22 +78,30 @@
     @foreach (var revision in Model.listaRevisiones)
     {
       <tr>
-        <td class="text-center">@revision.Id</td>
-        <td class="text-center">@revision.FechaRevision</td>
-        <td class="text-center">@revision.NivelAceite</td>
-        <td class="text-center">@revision.NivelFrenos</td>
-        <td class="text-center">@revision.NivelRefrigerante</td>
-        <td class="text-center">@revision.NivelDireccion</td>
-        <td class="text-center">@revision.IdVehiculo</td>
+        <td class="text-center id">@revision.Id</td>
+        <td class="text-center fecha">@revision.FechaRevision</td>
+        <td class="text-center aceite">@revision.NivelAceite</td>
+        <td class="text-center frenos">@revision.NivelFrenos</td>
+        <td class="text-center refrigerante">@revision.NivelRefrigerante</td>
+        <td class="text-center direccion">@revision.NivelDireccion</td>
+        <td class="text-cente Vehiculo">@revision.IdVehiculo</td>
         <td>
-          <a class="btn btn-primary table-tn" asp-page="./ActualizarRevisiones" asp-route-Id ="@revision.Id"> 
+          @* <a class="btn btn-primary table-tn" asp-page="./ActualizarRevisiones" asp-route-Id ="@revision.Id"> 
+          <i class="far fa-edit"></i> 
+          Actualizar
+          </a>  *@
+          <a class="btn btn-primary table-tn actualizar" id="actualizar"> 
           <i class="far fa-edit"></i> 
           Actualizar
           </a> 
-          <a class="btn btn-danger table-tn" asp-page="./EliminarRevisiones" asp-route-Id ="@revision.Id"> 
+          @* <a class="btn btn-danger table-tn" asp-page="./EliminarRevisiones" asp-route-Id ="@revision.Id"> 
           <i class="far fa-edit"></i> 
           Eliminar
-          </a> 
+          </a>   *@
+          <a class="btn btn-danger table-tn eliminar" id="eliminar"> 
+          <i class="far fa-edit"></i> 
+          Eliminar
+          </a>  
         </td>
       </tr>
     }
@@ -104,3 +113,229 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="js/ocultar.js"></script>
 </body>
+
+
+
+
+
+@*  MODAL CONFIRMACION ACTUALIZAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarActualizar">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Actualizar Revisiones</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de Actualizar esta Revision?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ACTUALIZAR *@
+
+<div class="modal" tabindex="-1" id="modalActualizar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Actualizar Revisiones</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Actualizar Revisiones </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" id="id" class="id">
+        
+        <div class="col-12  mb-3">
+          <div class="input-group">
+            <label for="fechaRevision" class="form-label">Fecha de revision:</label>
+            <input type="date" class="form-control border border-primary fechaRevision" id="fechaRevision" name="fechaRevision"  required>
+          </div>
+          </div>
+            <div class="col-12  mb-3">
+              <div class="input-group">
+                <label for="nivelAceite" class="form-label">Nivel de aceite del Motor: </label>
+                <select id="nivelAceite" class="form-select border border-primary nivelAceite" name="nivelAceite" 
+                  required>
+          
+                    <option>Seleccione...</option>
+                    <option value="alto" >Nivel alto</option>
+                    <option value="normal" >Nivel normal</option>
+                    <option value="bajo">Nivel bajo</option>
+                  
+                </select>
+              </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelFrenos" class="form-label">Nivel de liquido de frenos: </label>
+                    <select id="nivelFrenos" class="form-select border border-primary nivelFrenos" name="nivelFrenos"  required>
+                      <option>Seleccione...</option>
+                      <option value="alto" >Nivel alto</option>
+                      <option value="normal" >Nivel normal</option>
+                      <option value="bajo">Nivel bajo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelRefrigerante" class="form-label">Nivel de refrigerante del motor: </label>
+                    <select id="nivelRefrigerante" class="form-select border border-primary nivelRefrigerante"
+                      name="nivelRefrigerante" required>
+                     <option>Seleccione...</option>
+                      <option value="alto">Nivel alto</option>
+                      <option value="normal">Nivel normal</option>
+                      <option value="bajo">Nivel bajo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelDireccion" class="form-label">Nivel de aceite de la direccion: </label>
+                    <select id="nivelDireccion" class="form-select border border-primary nivelDireccion" name="nivelDireccion"  required>
+                      <option>Seleccione...</option>
+                      <option value="alto" >Nivel alto</option>
+                      <option value="normal" >Nivel normal</option>
+                      <option value="bajo">Nivel bajo</option>
+                    </select>
+                </div>
+            </div>
+
+            <input type="hidden" name="idVehiculo" id="idVehiculo" class="idVehiculo">
+      </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+@*  MODAL CONFIRMACION ELIMINAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarEliminar">
+  <div class="modal-dialog" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar Revisiones</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de Eliminar esta Revision?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ELIMINAR *@
+
+<div class="modal" tabindex="-1" id="modalEliminar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Eliminar Revisiones</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Eliminar Revisiones </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" id="id" class="id">
+        
+        <div class="col-12  mb-3">
+          <div class="input-group">
+            <label for="fechaRevision" class="form-label">Fecha de revision:</label>
+            <input type="date" class="form-control border border-primary fechaRevision" id="fechaRevision" name="fechaRevision"  readonly>
+          </div>
+          </div>
+            <div class="col-12  mb-3">
+              <div class="input-group">
+                <label for="nivelAceite" class="form-label">Nivel de aceite del Motor: </label>
+                <select id="nivelAceite" class="form-select border border-primary nivelAceite" name="nivelAceite" 
+                  disabled>
+          
+                    <option>Seleccione...</option>
+                    <option value="alto" >Nivel alto</option>
+                    <option value="normal" >Nivel normal</option>
+                    <option value="bajo">Nivel bajo</option>
+                  
+                </select>
+              </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelFrenos" class="form-label">Nivel de liquido de frenos: </label>
+                    <select id="nivelFrenos" class="form-select border border-primary nivelFrenos" name="nivelFrenos"  disabled>
+                      <option>Seleccione...</option>
+                      <option value="alto" >Nivel alto</option>
+                      <option value="normal" >Nivel normal</option>
+                      <option value="bajo">Nivel bajo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelRefrigerante" class="form-label">Nivel de refrigerante del motor: </label>
+                    <select id="nivelRefrigerante" class="form-select border border-primary nivelRefrigerante"
+                      name="nivelRefrigerante" disabled>
+                     <option>Seleccione...</option>
+                      <option value="alto">Nivel alto</option>
+                      <option value="normal">Nivel normal</option>
+                      <option value="bajo">Nivel bajo</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12  mb-3">
+                <div class="input-group">
+                    <label for="nivelDireccion" class="form-label">Nivel de aceite de la direccion: </label>
+                    <select id="nivelDireccion" class="form-select border border-primary nivelDireccion" name="nivelDireccion"  disabled>
+                      <option>Seleccione...</option>
+                      <option value="alto" >Nivel alto</option>
+                      <option value="normal" >Nivel normal</option>
+                      <option value="bajo">Nivel bajo</option>
+                    </select>
+                </div>
+            </div>
+
+            <input type="hidden" name="idVehiculo" id="idVehiculo" class="idVehiculo">
+      </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

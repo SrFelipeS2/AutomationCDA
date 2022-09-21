@@ -2,6 +2,7 @@
 @model AutomationCDA.App.Webapp.ListaTodosLosRepuestosModel
 @{
   ViewData["Title"] = "Lista - Repuestos";
+  ViewData["script"] = "listaRepuestos.js";
 }
 
 <head>
@@ -74,16 +75,16 @@
     @foreach (var repuesto in Model.listaRepuestos)
     {
       <tr>
-        <td class="text-center">@repuesto.Id</td>
-        <td>@repuesto.Descripcion</td>
-        <td class="text-center">@repuesto.ValorRepuesto</td>
-        <td class="text-center">@repuesto.CantidadRepuesto</td>
+        <td class="text-center id">@repuesto.Id</td>
+        <td class="text-center descrip">@repuesto.Descripcion</td>
+        <td class="text-center valor">@repuesto.ValorRepuesto</td>
+        <td class="text-center cantidad">@repuesto.CantidadRepuesto</td>
         <td>
-          <a class="btn btn-primary table-tn" asp-page="./ActualizarRepuestos" asp-route-Id ="@repuesto.Id"> 
+          <a class="btn btn-primary table-tn actualizar" id="actualizar"> 
           <i class="far fa-edit"></i> 
           Actualizar
-          </a> 
-          <a class="btn btn-danger table-tn" asp-page="./EliminarRepuestos" asp-route-Id ="@repuesto.Id"> 
+          </a>  
+          <a class="btn btn-danger table-tn eliminar" id="eliminar"> 
           <i class="far fa-edit"></i> 
           Eliminar
           </a> 
@@ -98,3 +99,158 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="js/ocultar.js"></script>
 </body>
+
+
+
+
+@*  MODAL CONFIRMACION ACTUALIZAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarActualizar">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Actualizar Repueestos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de Actualizar esta Repuesto?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ACTUALIZAR *@
+
+<div class="modal" tabindex="-1" id="modalActualizar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Actualizar Repuestos</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Actualizar Repuestos </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+                
+                <input type="hidden" name="id" id="id" class="id">
+                    
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Descripción repuesto: </span>
+                        <input class="form-control descripcion" type="text" placeholder="Ingrese la descripcion del repuesto" id="descripcion" name="descripcion" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Cantidad: </span>
+                        <input class="form-control cantidadRepuesto" type="number" id="cantidad" name="cantidad" min="1" max="10" placeholder="Ingrese las unidades del repuesto" required >
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Valor: </span>
+                        <input class="form-control valorRepuesto"  type="number" aria-label="With textarea" id="valor" name="valor" placeholder="Ingrese el valor del repuesto" required>
+                    </div>
+                </div>
+            </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+@*  MODAL CONFIRMACION ELIMINAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarEliminar">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar Repuestos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de Eliminar esta Repuesto?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ELIMINAR *@
+
+<div class="modal" tabindex="-1" id="modalEliminar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Eliminar Repuestos</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Eliminar Repuestos </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <input type="hidden" name="id" id="id" class="id">
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Descripción repuesto: </span>
+                        <input class="form-control descripcion" type="text" placeholder="Ingrese la descripcion del repuesto" id="descripcion" name="descripcion"  readonly>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Cantidad: </span>
+                        <input class="form-control cantidadRepuesto" type="number" id="cantidad" name="cantidad" min="1" max="10" placeholder="Ingrese las unidades del repuesto" readonly >
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Valor: </span>
+                        <input class="form-control valorRepuesto"  type="number" aria-label="With textarea" id="valor" name="valor" placeholder="Ingrese el valor del repuesto" readonly>
+                    </div>
+                </div>
+            </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

@@ -2,6 +2,7 @@
 @model AutomationCDA.App.Webapp.ListaTodosLosSegurosAdicionalesModel
 @{
   ViewData["Title"] = "Listar-seguros";
+  ViewData["script"] = "listaSeguros.js";
 }
 
 <head>
@@ -73,18 +74,26 @@
                         @foreach (var seguro in Model.listaSeguroAdicional)
                         {
                         <tr>
-                            <td class="text-center">@seguro.Id</td>
-                            <td class="text-center">@seguro.TipoSeguro</td>
-                            <td class="text-center">@seguro.FechaVencimiento</td>
+                            <td class="text-center ids">@seguro.Id</td>
+                            <td class="text-center tipo">@seguro.TipoSeguro</td>
+                            <td class="text-center fecha">@seguro.FechaVencimiento</td>
                             <td>
-                            <a class="btn btn-primary table-tn" asp-page="./ActualizarSegurosAdicionales" asp-route-Id ="@seguro.Id"> 
+                            @*<a class="btn btn-primary table-tn" asp-page="./ActualizarSegurosAdicionales" asp-route-Id ="@seguro.Id"> 
                             <i class="far fa-edit"></i> 
                             Actualizar
-                            </a> 
-                            <a class="btn btn-danger table-tn" asp-page="./EliminarSegurosAdicionales" asp-route-Id ="@seguro.Id"> 
+                            </a> *@
+                            <a class="btn btn-primary table-tn actualizar" id="actualizar"> 
+                            <i class="far fa-edit"></i> 
+                            Actualizar
+                            </a>
+                            @*<a class="btn btn-danger table-tn" asp-page="./EliminarSegurosAdicionales" asp-route-Id ="@seguro.Id"> 
                             <i class="far fa-edit"></i> 
                             Eliminar
-                            </a> 
+                            </a> *@
+                            <a class="btn btn-danger table-tn eliminar" id="eliminar"> 
+                            <i class="far fa-edit"></i> 
+                            Eliminar
+                            </a>
                             </td>
                         </tr>
                         }
@@ -96,3 +105,158 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="js/ocultar.js"></script>
 </body>
+
+
+
+
+@*  MODAL CONFIRMACION ACTUALIZAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarActualizar">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Actualizar Seguros Adicionales</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de Actualizar este Seguro?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ACTUALIZAR *@
+
+<div class="modal" tabindex="-1" id="modalActualizar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Actualizar Seguros Adicionales</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Actualizar Seguros Adicionales </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                         <input type="hidden" name="id" id="id" class="id">
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Tipo seguro: </span>
+                        <select id="tipoSeguro" class="form-select border border-primary tipoSeguro" name="tipoSeguro" required>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="1">Soat</option>
+                          <option value="2">Seguro todo riesgo</option>
+                          <option value="3">Seguro estudiantil</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Fecha Vencimiento: </span>
+                         <input type="date" class="form-control border border-primary fechaVencimiento" id="fechaVencimiento" name="fechaVencimiento" required>
+                    </div>
+                
+            </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+@*MODAL CONFIRMACION ELIMINAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarEliminar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar Seguros Adicionales</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de Eliminar este Seguro?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ELIMINAR *@
+
+<div class="modal" tabindex="-1" id="modalEliminar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Eliminar Seguros Adicionales</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Eliminar Seguros Adicionales </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                         <input type="hidden" name="id" id="id" class="id">
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Tipo seguro: </span>
+                        <select id="tipoSeguro" class="form-select border border-primary tipoSeguro" name="tipoSeguro" readonly>
+                          <option selected="selected">Seleccione...</option>
+                          <option value="1">Soat</option>
+                          <option value="2">Seguro todo riesgo</option>
+                          <option value="3">Seguro estudiantil</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Fecha Vencimiento: </span>
+                         <input type="date" class="form-control border border-primary fechaVencimiento" id="fechaVencimiento" name="fechaVencimiento" readonly>
+                    </div>
+                
+            </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

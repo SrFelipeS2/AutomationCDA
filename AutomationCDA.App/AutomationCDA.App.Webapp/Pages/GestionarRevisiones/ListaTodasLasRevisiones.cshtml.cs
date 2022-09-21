@@ -17,5 +17,65 @@ namespace AutomationCDA.App.Webapp
     {
       listaRevisiones = _revisionRepositorio.BuscarListaRevisiones();
     }
+
+    public IActionResult OnPostUpdateJson([FromBody]Revision revision)
+    {
+      var revisionResultUpdate = _revisionRepositorio.BuscarRevision(revision.Id);
+      var mensaje = "";
+
+      if (revisionResultUpdate != null)
+      {
+        revisionResultUpdate.FechaRevision = revision.FechaRevision;
+        revisionResultUpdate.NivelAceite = revision.NivelAceite;
+        revisionResultUpdate.NivelFrenos = revision.NivelFrenos;
+        revisionResultUpdate.NivelRefrigerante = revision.NivelRefrigerante;
+        revisionResultUpdate.NivelDireccion = revision.NivelDireccion;
+
+        var resultUpdate = _revisionRepositorio.ActualizarRevision(revisionResultUpdate);
+        if (resultUpdate > 0)
+        {
+          mensaje = "Se Actualizó correctamente";
+        }
+        else
+        {
+          mensaje = "No se pudo Actualizar";
+        }
+      }
+      else
+      {
+        mensaje = "La revsion a Actualizar no existe";
+      }
+
+      return Content(mensaje);
+      
+    }
+
+
+    public IActionResult OnPostDeleteJson([FromBody]Revision revision)
+    {
+      var revisionResultDelete = _revisionRepositorio.BuscarRevision(revision.Id);
+      var mensaje = "";
+
+      if (revisionResultDelete != null)
+      {
+        
+        var resultDelete = _revisionRepositorio.EliminarRevision(revisionResultDelete);
+        if (resultDelete > 0)
+        {
+          mensaje = "Se Eliminó correctamente";
+        }
+        else
+        {
+          mensaje = "No se pudo Eliminar";
+        }
+      }
+      else
+      {
+        mensaje = "La revsion a Eliminar no existe";
+      }
+
+      return Content(mensaje);
+    
+    }
   }
 }

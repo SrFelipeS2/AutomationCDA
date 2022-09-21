@@ -17,5 +17,69 @@ namespace AutomationCDA.App.Webapp
     {
       listaVehiculos = _vehiculoRepositorio.BuscarListaVehiculos();
     }
+  
+  
+  public IActionResult OnPostUpdateJson([FromBody]Vehiculo vehiculo)
+  {
+    var vehiculoResultUpdate = _vehiculoRepositorio.BuscarVehiculo(vehiculo.Id);
+    var mensaje = "";
+
+    if (vehiculoResultUpdate != null)
+    {
+      vehiculoResultUpdate.Placa = vehiculo.Placa;
+      vehiculoResultUpdate.Modelo = vehiculo.Modelo;
+      vehiculoResultUpdate.Marca = vehiculo.Marca;
+      vehiculoResultUpdate.CapacidadPasajeros = vehiculo.CapacidadPasajeros;
+      vehiculoResultUpdate.CilindradaMotor = vehiculo.CilindradaMotor;
+      vehiculoResultUpdate.TipoVehiculo = vehiculo.TipoVehiculo;
+      vehiculoResultUpdate.Observaciones = vehiculo.Observaciones;
+      vehiculoResultUpdate.EstadoSoat = vehiculo.EstadoSoat;
+
+      var resultUpdate = _vehiculoRepositorio.ActualizarVehiculo(vehiculoResultUpdate);
+      if (resultUpdate > 0)
+      {
+        mensaje = "Se Actualizó correctamente";
+      }
+      else
+      {
+        mensaje = "No se pudo Actualizar";
+      }
+    }
+    else
+    {
+      mensaje = "El vehiculo a Actualizar no existe";
+    }
+
+    return Content(mensaje);
+        
+  }
+
+  public IActionResult OnPostDeleteJson([FromBody]Vehiculo vehiculo)
+  {
+    var vehiculoResultDelete = _vehiculoRepositorio.BuscarVehiculo(vehiculo.Id);
+    var mensaje = "";
+
+    if (vehiculoResultDelete != null)
+    {
+          
+      var resultDelete = _vehiculoRepositorio.EliminarVehiculo(vehiculoResultDelete);
+      if (resultDelete > 0)
+      {
+        mensaje = "Se Eliminó correctamente";
+      }
+      else
+      {
+        mensaje = "No se pudo Eliminar";
+      }
+    }
+    else
+    {
+      mensaje = "El vehiculo a Eliminar no existe";
+    }
+
+    return Content(mensaje);
+      
+  }    
   }
 }
+

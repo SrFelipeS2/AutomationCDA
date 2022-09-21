@@ -1,6 +1,8 @@
 ﻿@page
 @model AutomationCDA.App.Webapp.ListaTodasLasPersonasModel
 @{
+    ViewData["Title"] = "Listado de personas";
+    ViewData["script"] = "personasListado.js"; 
 }
 <head>
 <link rel="stylesheet" href="~/css/customPersonas.css"/>
@@ -59,10 +61,10 @@
             </div>
             <div class="container col-12" style="width:100%">
               <div class="table-responsive">
-                <table class="table" id="tablePersonas">
+                <table class="table" id="tablaPersonas">
                 <thead>
                     <tr>
-                        <th><div style="width:20px">Id</div></th>
+                        <th>Id</div></th>
                         <th>Cedula</th>
                         <th>Nombre</th>
                         <th>Apellidos</th>
@@ -83,18 +85,10 @@
                             <td>@persona.CorreoElectronico</td>
                             <td>@persona.Direccion</td>
                             <td>@persona.NivelEstudios</td>
-                            <td><a class="btn btn-primary table-btn" asp-page="./EditarPersona" asp-route-Id="@persona.Id">
+                            <td><a class="btn btn-primary table-btn" id="editarPersona">
                                     <i class="far fa-edit"></i>Editar</a></td>
-                            
-               <!--             <td><a class="btn btn-primary table-btn" asp-page="./EditarPersona" asp-route-Id="@persona.Id">
-                -->
-
-                            <td>   
-                                <a class="btn btn-primary table-btn" asp-page="./EliminarPersona" asp-route-Id="@persona.Id">
-                                    <i class="far fa-remove"></i>Eliminar</a></td>
+                            <td><a class="btn btn-secondary"><i class="far fa-remove"></i>Eliminar</a></td>
                                 
-                           
-                            
                         </tr>
                     }
                 </tbody>
@@ -106,5 +100,157 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="js/ocultar.js"></script>
 </body>
+   
+<!--  
+Modales
+-->
 
-           
+
+<!-- Modal Actualizar -->
+<div class="modal" tabindex="-1" role="dialog" id="modalEditar">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Editar personas</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form method="post" action="" id="formularioEditar">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" id="id" name="id">
+                        <div class="form-grow  mb-3">
+                            <label for="cedula">Cedula </label>
+                            <input type="text" class="form-control" id="cedula" name="cedula"
+                                placeholder="Digite su cedula" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow  mb-3">
+                            <label for="nombre">Nombre </label>
+                            <input type="text" class="form-control" id="nombre" name="nombre"
+                                placeholder="Digite su nombre" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow mb-3">
+                            <label for="apellidos">Apellidos </label>
+                            <input type="text" class="form-control" id="apellidos" name="apellidos"
+                                placeholder="Digite su apellido" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow mb-3">
+                            <label for="telefono">Teléfono </label>
+                            <input type="numer" class="form-control" id="telefono" name="telefono"
+                                placeholder="Digite su teléfono" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow mb-3">
+                            <label for="correoElectronico">Correo Electrónico </label>
+                            <input type="email" class="form-control" id="correoElectronico" name="correoElectronico"
+                                placeholder="Digite su correo electrónico" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow  mb-3">
+                            <label for="direccion">Dirección de Residencia </label>
+                            <input type="text" class="form-control" id="direccion" name="direccion"
+                                placeholder="Digite su dirección de residencia" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-group  mb-3">
+                            <label for="nivelestudios">Nivel Estudios</label>
+                            <select class="form-control" id="nivelestudios" name="nivelestudios">
+                                <option value="" selected="selected">Seleccione....</option>
+                                <option>Primaria</option>
+                                <option>Secundaria</option>
+                                <option>Pregrado</option>
+                                <option>Postgrado</option>
+                                <option>Maestría</option>
+                            </select>
+                        </div>                                                                              
+                    </form>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="btnActualizar">Actualizar</button>
+        <button type="reset" class="btn btn-secondary">Limpiar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="modalEliminar">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar Persona</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form method="post" action="" id="formularioEliminar">
+                        @Html.AntiForgeryToken()
+                <!--        
+                        <input type="hidden" id="id" name="id">
+                        <div class="form-grow  mb-3">
+                            <label for="cedula">Cedula </label>
+                            <input type="text" class="form-control" id="cedula" name="cedula"
+                                placeholder="Digite su cedula" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow  mb-3">
+                            <label for="nombre">Nombre </label>
+                            <input type="text" class="form-control" id="nombre" name="nombre"
+                                placeholder="Digite su nombre" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow mb-3">
+                            <label for="apellidos">Apellidos </label>
+                            <input type="text" class="form-control" id="apellidos" name="apellidos"
+                                placeholder="Digite su apellido" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow mb-3">
+                            <label for="telefono">Teléfono </label>
+                            <input type="numer" class="form-control" id="telefono" name="telefono"
+                                placeholder="Digite su teléfono" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow mb-3">
+                            <label for="correoElectronico">Correo Electrónico </label>
+                            <input type="email" class="form-control" id="correoElectronico" name="correoElectronico"
+                                placeholder="Digite su correo electrónico" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-grow  mb-3">
+                            <label for="direccion">Dirección de Residencia </label>
+                            <input type="text" class="form-control" id="direccion" name="direccion"
+                                placeholder="Digite su dirección de residencia" minlegth="5" maxlegth="50">
+                        </div>
+                        <div class="form-group  mb-3">
+                            <label for="nivelestudios">Nivel Estudios</label>
+                            <select class="form-control" id="nivelestudios" name="nivelestudios">
+                                <option value="" selected="selected">Seleccione....</option>
+                                <option>Primaria</option>
+                                <option>Secundaria</option>
+                                <option>Pregrado</option>
+                                <option>Postgrado</option>
+                                <option>Maestría</option>
+                            </select>
+                        </div>     -->                                                                         
+                    </form>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div>
+        <p>¿Desea eliminar la persona?</p>
+        </div>
+        <button type="button" class="btn btn-primary" id="btnSiEliminar">SI</button>
+        <button type="reset" class="btn btn-secondary" id="btnNoEliminar">NO</button>
+      </div>
+    </div>
+  </div>
+</div>

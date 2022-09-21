@@ -1,6 +1,8 @@
 ﻿@page
 @model AutomationCDA.App.Webapp.ListaTodosLosVehiculosModel
 @{
+  ViewData["Title"] = "Lista - Vehiculos";
+  ViewData["script"] = "listaVehiculos.js";
 }
  <head>
   <link rel="stylesheet" href="~/css/customVehiculos.css"/>
@@ -57,7 +59,8 @@
                     </div>
                 </div>
             </div>
-                <table class="table row d-flex justify-content-center">
+                <div class="container">
+                <table class="table">
                     <thead>
                         <tr>
                         <th class="text-center" >Id.</th>
@@ -67,34 +70,41 @@
                         <th class="text-center" >C. P.</th>
                         <th class="text-center" >C. M.</th>
                         <th class="text-center" >Tipo V.</th>
-                        <th>Obs</th>
+                        <th class="text-center" >Obs</th>
                         <th class="text-center">Estado S.</th>
                         <th class="text-center">Acciones.</th>
-                   
                     </thead>
                     <tbody>
                         @foreach (var vehiculo in Model.listaVehiculos)
                         {
                         <tr>
-                            <td class="text-center">@vehiculo.Id</td>
-                            <td class="text-center">@vehiculo.Placa</td>
-                            <td class="text-center">@vehiculo.Modelo</td>
-                            <td class="text-center">@vehiculo.Marca</td>
-                            <td class="text-center">@vehiculo.CapacidadPasajeros</td>
-                            <td class="text-center">@vehiculo.CilindradaMotor</td>
-                            <td class="text-center">@vehiculo.TipoVehiculo</td>
-                            <td>@vehiculo.Observaciones</td>
-                            <td class="text-center">@vehiculo.EstadoSoat</td>
+                            <td class="text-center ids">@vehiculo.Id</td>
+                            <td class="text-center placas">@vehiculo.Placa</td>
+                            <td class="text-center modelos">@vehiculo.Modelo</td>
+                            <td class="text-center marcas">@vehiculo.Marca</td>
+                            <td class="text-center capacidad">@vehiculo.CapacidadPasajeros</td>
+                            <td class="text-center cilindraje">@vehiculo.CilindradaMotor</td>
+                            <td class="text-center tipo">@vehiculo.TipoVehiculo</td>
+                            <td class="text-center observacion">@vehiculo.Observaciones</td>
+                            <td class="text-center estado">@vehiculo.EstadoSoat</td>
                             
                             <td>
-                            <a class="btn btn-primary table-tn" asp-page="./ActualizarVehiculos" asp-route-Id ="@vehiculo.Id"> 
+                            @*<a class="btn btn-primary table-tn" asp-page="./ActualizarVehiculos" asp-route-Id ="@vehiculo.Id"> 
                             <i class="far fa-edit"></i> 
                             Actualizar
-                            </a> 
-                            <a class="btn btn-danger table-tn" asp-page="./EliminarVehiculos" asp-route-Id ="@vehiculo.Id"> 
+                            </a> *@
+                            <a class="btn btn-primary table-tn actualizar" id="actualizar"> 
+                            <i class="far fa-edit"></i> 
+                            Actualizar
+                            </a>
+                            @*<a class="btn btn-danger table-tn" asp-page="./EliminarVehiculos" asp-route-Id ="@vehiculo.Id"> 
                             <i class="far fa-edit"></i> 
                             Eliminar
-                            </a> 
+                            </a>*@ 
+                            <a class="btn btn-danger table-tn eliminar" id="eliminar"> 
+                            <i class="far fa-edit"></i> 
+                            Eliminar
+                            </a>
                             </td>
                         </tr>
                         }
@@ -106,3 +116,213 @@
     <script src="js/ocultar.js"></script>
 
 </body>
+
+
+@*  MODAL CONFIRMACION ACTUALIZAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarActualizar">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Actualizar Vehiculos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de actualizar este repuesto?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ACTUALIZAR *@
+
+<div class="modal" tabindex="-1" id="modalActualizar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Actualizar Vehiculo</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+        
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Actualizar Vehiculo </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" id="id" class="id">
+
+                <input type="hidden" name="id" id="id" class="id">
+                    
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Placa: </span>
+                        <input class="form-control placa" type="text" placeholder="Ingrese la placa" id="placa" name="placa" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Modelo: </span>
+                        <input class="form-control modelo" type="number" id="modelo" name="modelo" min="1" max="1000" placeholder="Ingrese el modelo" required >
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Marca: </span>
+                        <input class="form-control marca"  type="text" aria-label="With textarea" id="marca" name="marca" placeholder="Ingrese la marca" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Capacidad pasajeros: </span>
+                        <input class="form-control capacidadPasajeros"  type="number" aria-label="With textarea" id="capacidadPasajeros" name="capacidadPasajeros" placeholder="Ingrese la capacidad pasajeros" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Cilindrada: </span>
+                        <input class="form-control cilindradaMotor"  type="number" aria-label="With textarea" id="cilindradaMotor" name="cilindradaMotor" placeholder="Ingrese la cilindrada" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Tipo Vehiculo: </span>
+                        <input class="form-control tipoVehiculo"  type="number" aria-label="With textarea" id="tipoVehiculo" name="tipoVehiculo" placeholder="Ingrese el tipo vehiculo" required>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                <div class="input-group">
+                    <span class="input-group-text">Estado Soat: </span>
+                    <select id="estadoSoat" class="form-select border border-primary estadoSoat"
+                      name="estadoSoat" required>
+                     <option>Seleccione...</option>
+                      <option value="1">Activo</option>
+                      <option value="2">Vencido</option>
+                    </select>
+                </div>
+            </div>
+            <input type="hidden" name="id" id="id" class="id">
+      </form>
+    </div>
+  
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-actualizar">Actualizar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+@*  MODAL CONFIRMACION ELIMINAR*@
+<div class="modal" tabindex="-1" id="modalConfirmarEliminar">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar vehículo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>¿Esta seguro de eliminar este vehículo</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-primary comfirmar-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@* MODAL ELIMINAR *@
+
+<div class="modal" tabindex="-1" id="modalEliminar">
+  <div class="modal-dialog" style="max-width: 800px!important;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Eliminar Vehiculos</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="container">
+  <div class="row">
+    
+    <div class="col-12 col-md-12">
+      <h1 class="text-center mt-5 mb-5">Eliminar Vehiculos </h1>
+      <form class="row g-3 mt-2 mb-5" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="id" id="id" class="id">
+
+                <input type="hidden" name="id" id="id" class="id">
+                    
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Placa: </span>
+                        <input class="form-control placa" type="text" placeholder="Ingrese la placa" id="placa" name="placa" readonly>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Modelo: </span>
+                        <input class="form-control modelo" type="number" id="modelo" name="modelo" min="1" max="1000" placeholder="Ingrese el modelo" readonly >
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Marca: </span>
+                        <input class="form-control marca"  type="text" aria-label="With textarea" id="marca" name="marca" placeholder="Ingrese la marca" readonly>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Capacidad pasajeros: </span>
+                        <input class="form-control capacidadPasajeros"  type="number" aria-label="With textarea" id="capacidadPasajeros" name="capacidadPasajeros" placeholder="Ingrese la capacidad pasajeros" readonly>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Cilindrada: </span>
+                        <input class="form-control cilindradaMotor"  type="number" aria-label="With textarea" id="cilindradaMotor" name="cilindradaMotor" placeholder="Ingrese la cilindrada" readonly>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">Tipo Vehiculo: </span>
+                        <input class="form-control tipoVehiculo"  type="number" aria-label="With textarea" id="tipoVehiculo" name="tipoVehiculo" placeholder="Ingrese el tipo vehiculo" readonly>
+                    </div>
+                </div>
+                <div class="col-12  mb-3">
+                <div class="input-group">                                  
+                    <span class="input-group-text">Estado Soat: </span>
+                    <select id="estadoSoat" class="form-select border border-primary estadoSoat" name="nivelAceite" 
+                  disabled>
+                      name="estadoSoat" required>
+                      <option value="1">Activo</option>
+                      <option value="2">Vencido</option>
+                    </select>
+                </div>
+            </div>
+            <input type="hidden" name="id" id="id" class="id">
+      </form>
+    </div>
+    
+  </div>
+</div>
+    </div>
+    <div class="modal-footer">
+      <div class="text-center d-grid mx-auto col-6 mb-5">
+        <button type="button" class="btn btn-primary mb-2 btn-eliminar">Eliminar</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>

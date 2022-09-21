@@ -83,3 +83,105 @@ C:\Users\ASUS\OneDrive\Documentos\Proyecto_Ovi_And\AutomationCDA\AutomationCDA.A
 C:\Users\ASUS\OneDrive\Documentos\Proyecto_Ovi_And\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
 C:\Users\ASUS\OneDrive\Documentos\Proyecto_Ovi_And\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Documentos\Proyecto_Ovi_And\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.deps.json
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.runtimeconfig.json
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.AssemblyReference.cache
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfoInputs.cache
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfo.cs
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CoreCompileInputs.cache
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CopyComplete
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\refint\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache
+E:\Escritorio\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.deps.json
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.runtimeconfig.json
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.AssemblyReference.cache
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfoInputs.cache
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfo.cs
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CoreCompileInputs.cache
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CopyComplete
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\refint\AutomationCDA.App.Persistencia.dll
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache
+E:\Escritorio\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.deps.json
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\refint\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Documentos\Proyecto U Caldas\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.deps.json
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.runtimeconfig.json
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.AssemblyReference.cache
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfoInputs.cache
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfo.cs
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CopyComplete
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\refint\AutomationCDA.App.Persistencia.dll
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache
+C:\PUNTONET-C#\PROYECTOS\AutomationCDA-sprint4-sara\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.deps.json
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.runtimeconfig.json
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CopyComplete
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\refint\AutomationCDA.App.Persistencia.dll
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\AutomationCDA-sprint4 - VERSION 3 - Jorge Hernán\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.deps.json
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.runtimeconfig.json
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.dll
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\bin\Debug\net6.0\AutomationCDA.App.Dominio.pdb
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.AssemblyInfo.cs
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.csproj.CopyComplete
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.dll
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\ref\AutomationCDA.App.Persistencia.dll
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.pdb
+C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Persistencia\obj\Debug\net6.0\AutomationCDA.App.Persistencia.genruntimeconfig.cache

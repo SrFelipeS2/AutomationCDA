@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tFEQ0uQOpNiTYXLoenUZFOGPZXfDcvCl5z/CXYvrxVkx8JQN7QxUmhlmWVB1J9B+zei0z1UlEUlz3mOJhtUozw==",
+  "dgSpecHash": "r3P4gNDrZiAHnGtcTFnfdBUyXFW9+CLtTCrqqB85+tnYdoxwGvMYd88IP2OsJ9hqkpX0e31Hi9iTH86s23Lzcw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ANDRES\\Desktop\\PROYECTO MIN TIC\\AutomationCDA\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\ANDRES\\Desktop\\AutomationCDA-sprint4-seguros\\AutomationCDA-sprint4\\AutomationCDA.App\\AutomationCDA.App.Persistencia\\AutomationCDA.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ANDRES\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ANDRES\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

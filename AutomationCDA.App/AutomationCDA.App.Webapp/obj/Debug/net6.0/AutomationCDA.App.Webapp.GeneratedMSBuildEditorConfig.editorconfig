@@ -8,149 +8,149 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AutomationCDA.App.Webapp
 build_property.RootNamespace = AutomationCDA.App.Webapp
-build_property.ProjectDir = C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Webapp\
+build_property.ProjectDir = C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Webapp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ANDRES\Desktop\PROYECTO MIN TIC\AutomationCDA\AutomationCDA.App\AutomationCDA.App.Webapp
+build_property.MSBuildProjectDirectory = C:\Users\ANDRES\Desktop\AutomationCDA-sprint4-seguros\AutomationCDA-sprint4\AutomationCDA.App\AutomationCDA.App.Webapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Error.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/ActualizarPersonas.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/ActualizarPersonas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUGVyc29uYXNcQWN0dWFsaXphclBlcnNvbmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/AgregarPersonas.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/AgregarPersonas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUGVyc29uYXNcQWdyZWdhclBlcnNvbmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/EliminarPersonas.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/EliminarPersonas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUGVyc29uYXNcRWxpbWluYXJQZXJzb25hcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/ListaTodasLasPersonas.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarPersonas/ListaTodasLasPersonas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUGVyc29uYXNcTGlzdGFUb2Rhc0xhc1BlcnNvbmFzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/ActualizarRepuestos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/ActualizarRepuestos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmVwdWVzdG9zXEFjdHVhbGl6YXJSZXB1ZXN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/AgregarRepuestos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/AgregarRepuestos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmVwdWVzdG9zXEFncmVnYXJSZXB1ZXN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/EliminarRepuestos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/EliminarRepuestos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmVwdWVzdG9zXEVsaW1pbmFyUmVwdWVzdG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/ListaTodosLosRepuestos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRepuestos/ListaTodosLosRepuestos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmVwdWVzdG9zXExpc3RhVG9kb3NMb3NSZXB1ZXN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/ActualizarRevisiones.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/ActualizarRevisiones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmV2aXNpb25lc1xBY3R1YWxpemFyUmV2aXNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/AgregarRevisiones.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/AgregarRevisiones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmV2aXNpb25lc1xBZ3JlZ2FyUmV2aXNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/EliminarRevisiones.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/EliminarRevisiones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmV2aXNpb25lc1xFbGltaW5hclJldmlzaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/ListaTodasLasRevisiones.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRevisiones/ListaTodasLasRevisiones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUmV2aXNpb25lc1xMaXN0YVRvZGFzTGFzUmV2aXNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/ActualizarRoles.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/ActualizarRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUm9sZXNcQWN0dWFsaXphclJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/AgregarRoles.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/AgregarRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUm9sZXNcQWdyZWdhclJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/EliminarRoles.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/EliminarRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUm9sZXNcRWxpbWluYXJSb2xlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/ListaTodosLosRoles.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarRoles/ListaTodosLosRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyUm9sZXNcTGlzdGFUb2Rvc0xvc1JvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/ActualizarSegurosAdicionales.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/ActualizarSegurosAdicionales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyU2VndXJvc0FkaWNpb25hbGVzXEFjdHVhbGl6YXJTZWd1cm9zQWRpY2lvbmFsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/AgregarSegurosAdicionales.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/AgregarSegurosAdicionales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyU2VndXJvc0FkaWNpb25hbGVzXEFncmVnYXJTZWd1cm9zQWRpY2lvbmFsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/EliminarSegurosAdicionales.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/EliminarSegurosAdicionales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyU2VndXJvc0FkaWNpb25hbGVzXEVsaW1pbmFyU2VndXJvc0FkaWNpb25hbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/ListaTodosLosSegurosAdicionales.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarSegurosAdicionales/ListaTodosLosSegurosAdicionales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyU2VndXJvc0FkaWNpb25hbGVzXExpc3RhVG9kb3NMb3NTZWd1cm9zQWRpY2lvbmFsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/ActualizarUsuarios.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/ActualizarUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVXN1YXJpb3NcQWN0dWFsaXphclVzdWFyaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/AgregarUsuarios.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/AgregarUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVXN1YXJpb3NcQWdyZWdhclVzdWFyaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/EliminarUsuarios.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/EliminarUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVXN1YXJpb3NcRWxpbWluYXJVc3Vhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/ListaTodosLosUsuarios.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarUsuarios/ListaTodosLosUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVXN1YXJpb3NcTGlzdGFUb2Rvc0xvc1VzdWFyaW9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/ActualizarVehiculos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/ActualizarVehiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVmVoaWN1bG9zXEFjdHVhbGl6YXJWZWhpY3Vsb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/AgregarVehiculos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/AgregarVehiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVmVoaWN1bG9zXEFncmVnYXJWZWhpY3Vsb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/EliminarVehiculos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/EliminarVehiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVmVoaWN1bG9zXEVsaW1pbmFyVmVoaWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/ListaTodosLosVehiculos.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/GestionarVehiculos/ListaTodosLosVehiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2VzdGlvbmFyVmVoaWN1bG9zXExpc3RhVG9kb3NMb3NWZWhpY3Vsb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Index.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Privacy.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Shared/_Layout.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/_ViewImports.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ANDRES/Desktop/PROYECTO MIN TIC/AutomationCDA/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/_ViewStart.cshtml]
+[C:/Users/ANDRES/Desktop/AutomationCDA-sprint4-seguros/AutomationCDA-sprint4/AutomationCDA.App/AutomationCDA.App.Webapp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -48,7 +48,14 @@ namespace AutomationCDA.App.Webapp
             }
 
         
-        }
+    }
+
+    public IActionResult OnPostConsultarPersona(string documento){
+
+            var persona = _personaRepositorio.BuscarPorNoDocumento(documento);
+
+            return new JsonResult( persona );
+    }
 
   }
 }
