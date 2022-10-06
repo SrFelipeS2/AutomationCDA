@@ -1,0 +1,2 @@
+{'tipo_documento': 'CC', 'numero_documento': '1053864', 'nombre': 'andres', 'apellido': 'valencia', 'fecha_nacimiento': '1998-07-09', 'rh_grupo': 'A+', 'email': 'andres@gmail.com', 'telefono': '3107885186', 'cita': 'Sin cita'}
+{'tipo_documento': 'CC', 'numero_documento': '1053852', 'nombre': 'andres', 'apellido': 'valencia', 'fecha_nacimiento': '1996-05-08', 'rh_grupo': 'O+', 'email': 'valencia@gmail.com', 'telefono': '3107556231', 'cita': 'Sin cita'}
